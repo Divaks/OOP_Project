@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1b4332;
+  color: white;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #2d6a4f;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #40916c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar button:hover {
+  background-color: #52b788;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 24px;
+  position: relative;
+}
+
+.account-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 10px 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.account-button:hover {
+  background-color: #40916c;
+}
+
+.card {
+  margin-top: 80px;
+  padding: 24px;
+  background-color: #1d3557;
+  border-radius: 8px;
+  text-align: center;
+}
